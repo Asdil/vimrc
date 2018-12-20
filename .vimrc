@@ -1,4 +1,5 @@
 set nocompatible "关闭与vi的兼容模式
+set backspace=indent,eol,start
 set number "显示行号
 set nowrap    "不自动折行
 set showmatch    "显示匹配的括号
@@ -104,5 +105,5 @@ fun! <SID>StripTrailingWhitespaces()
 filetype plugin on
 let g:pydiction_location = '~/.vim/complete-dict'
 let g:pydiction_menu_height = 3
+set mouse=v
 set foldmethod=indent
-
