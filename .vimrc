@@ -107,3 +107,4 @@ let g:pydiction_location = '~/.vim/complete-dict'
 let g:pydiction_menu_height = 3
 set mouse=v
 set foldmethod=indent
+se mouse+=a
