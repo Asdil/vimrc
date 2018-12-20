@@ -71,7 +71,6 @@ function! AutoSetFileHead()
     normal o
 endfunc
 
-set filetype=python
 au BufNewFile,BufRead *.py,*.pyw setf python
 set helplang=cn "中文帮助文档(前提是下了中文包)
 syntax enable
