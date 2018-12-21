@@ -5,5 +5,6 @@ sh -x install.sh
 cd ..
 cp -r after/ ~/.vim/
 cp complete-dict ~/.vim/
+rm ~/.vimrc
 cp .vimrc ~/
 source ~/.vimrc

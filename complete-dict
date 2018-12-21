@@ -1,5 +1,8 @@
 pandas
 pd.DataFrame(
+pd.read_table(
+pd.read_csv(
+pd.read_excel(
 pd.concat(
 pd.merge(
 sklearn.externals
