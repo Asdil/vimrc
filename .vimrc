@@ -105,8 +105,6 @@ fun! <SID>StripTrailingWhitespaces()
 filetype plugin on
 let g:pydiction_location = '~/.vim/complete-dict'
 let g:pydiction_menu_height = 3
-set mouse=v
-set foldmethod=indent
 inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
 inoremap { {}<ESC>i
@@ -114,4 +112,6 @@ inoremap < <><ESC>i
 inoremap ' ''<ESC>i
 inoremap " ""<ESC>i
 inoremap """ """"""<ESC>i
+set foldmethod=indent
+set mouse=v
 se mouse+=a
