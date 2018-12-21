@@ -114,4 +114,4 @@ inoremap " ""<ESC>i
 inoremap """ """"""<ESC>i
 set foldmethod=indent
 set mouse=v
-se mouse+=a
+"se mouse+=a
